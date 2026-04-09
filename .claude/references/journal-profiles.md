@@ -30,6 +30,120 @@ Each journal profile includes a **Referee pool** that weights which dispositions
 
 ---
 
+## Educational Technology & Innovation (Priority)
+
+**Top Tier — Educational Technology**
+
+### Computers & Education (C&E)
+**Focus:** Technology-enhanced learning across all educational levels — AI in education, learning analytics, adaptive systems, online learning, mobile learning
+**Bar:** Strong empirical evidence with clear pedagogical implications. Mixed methods valued. Large sample sizes or rigorous qualitative designs expected. Must advance understanding of HOW technology improves learning, not just WHETHER.
+**Domain referee adjusts:** Theoretical framework mandatory (TPACK, TAM, SAMR, Connectivism, etc.). Must go beyond "students liked it" — learning outcomes required. Detailed description of the technology/intervention. Ethical considerations for AI/data use. Cultural and contextual sensitivity.
+**Methods referee adjusts:** Pre-post with control group minimum for efficacy claims. Effect sizes (Cohen's d) required alongside p-values. Reliability of instruments (α ≥ 0.70). SEM, HLM for nested data (students in classes). Mixed methods: integration protocol clear. Learning analytics: proper cross-validation.
+**Typical concerns:** "What's the pedagogical theory?" "Does the technology add value over non-tech alternatives?" "How generalizable beyond this context?" "What about the digital divide?" "Effect sizes, not just significance."
+**Referee pool:** CREDIBILITY (high), MEASUREMENT (high), THEORY (medium), POLICY (medium), STRUCTURAL (low), SKEPTIC (medium)
+
+### Internet and Higher Education
+**Focus:** Online, blended, and technology-mediated learning in higher education — LMS, MOOCs, AI tutors, virtual labs, social media for learning
+**Bar:** Must focus on higher education specifically. Technology integration with clear learning outcomes. Longitudinal or quasi-experimental designs preferred.
+**Domain referee adjusts:** Higher education context essential. Understanding of university structures, academic cultures, faculty adoption. Student engagement and retention. Quality assurance in online education. Instructor perspective valued alongside student outcomes.
+**Methods referee adjusts:** Survey research must go beyond descriptive — SEM, PLS, or regression with controls. Learning analytics: ethical use of student data. Quasi-experimental designs with proper controls. Mixed methods for understanding complex phenomena. Response rates and non-response bias addressed.
+**Typical concerns:** "Is this really about higher education or just education with university students?" "What about faculty adoption barriers?" "Sustainability beyond the pilot?" "Quality equivalence with face-to-face?"
+**Referee pool:** CREDIBILITY (high), POLICY (high), MEASUREMENT (medium), THEORY (medium), SKEPTIC (medium), STRUCTURAL (low)
+
+### British Journal of Educational Technology (BJET)
+**Focus:** Educational technology theory and practice — design, implementation, and evaluation of learning technologies across contexts
+**Bar:** Must contribute to educational technology theory or practice. International perspective valued. Both empirical and conceptual papers accepted.
+**Domain referee adjusts:** Design-based research valued. Implementation challenges and lessons learned. Teacher/instructor perspectives. Accessibility and inclusion. International and cross-cultural comparisons. Open education and OER.
+**Methods referee adjusts:** Diverse methods accepted: experimental, survey, case study, design-based research, systematic review. Rigor standards match methodology. Qualitative: trustworthiness criteria. Quantitative: effect sizes and confidence intervals. Reviews: PRISMA or equivalent protocol.
+**Typical concerns:** "What's the contribution to EdTech theory?" "Have you considered implementation challenges?" "Is this culturally transferable?" "What about accessibility?"
+**Referee pool:** THEORY (high), CREDIBILITY (high), MEASUREMENT (medium), POLICY (medium), SKEPTIC (low), STRUCTURAL (low)
+
+---
+
+**Top Field — AI in Education**
+
+### International Journal of Artificial Intelligence in Education (IJAIED)
+**Focus:** AI applications in education — intelligent tutoring systems, adaptive learning, NLP for education, educational data mining, learner modeling
+**Bar:** Must involve genuine AI/ML contribution applied to education. Both technical innovation and educational evaluation expected. System papers need evaluation; evaluation papers need technical depth.
+**Domain referee adjusts:** Intelligent Tutoring Systems (ITS) tradition. Learner modeling and knowledge tracing. Natural language processing for automated feedback. Adaptive and personalized learning. Ethical AI in education. Explainability of AI decisions.
+**Methods referee adjusts:** Technical evaluation: precision, recall, F1, AUC for ML models. Cross-validation mandatory. Educational evaluation: controlled studies with learning gains. A/B testing in deployed systems. User studies with think-aloud protocols. Ablation studies for system components.
+**Typical concerns:** "What's the AI contribution vs. just using an API?" "Have you evaluated learning gains, not just system accuracy?" "Scalability?" "Bias in training data?" "Explainability of recommendations?"
+**Referee pool:** STRUCTURAL (high), MEASUREMENT (high), CREDIBILITY (high), THEORY (medium), SKEPTIC (medium), POLICY (low)
+
+### Educational Technology Research and Development (ETR&D)
+**Focus:** Instructional design, learning sciences, and educational technology — theory, research, and practice
+**Bar:** Must bridge research and practice. Development papers need evaluation. Research papers need practical implications. Strong theoretical grounding expected.
+**Domain referee adjusts:** Instructional design theory (Gagné, Merrill, van Merriënboer). Learning sciences foundations. Design-based research methodology. Professional development for technology integration. TPACK framework for teacher knowledge.
+**Methods referee adjusts:** Design-based research: iterative cycles documented. Experimental: proper controls and randomization. Development research: formative and summative evaluation. Mixed methods: clear integration rationale. Instruments: validity and reliability evidence.
+**Typical concerns:** "What instructional design principles guide this?" "How was the intervention developed?" "What evidence of learning?" "Practical implications for designers/instructors?"
+**Referee pool:** THEORY (high), CREDIBILITY (high), STRUCTURAL (medium), MEASUREMENT (medium), POLICY (medium), SKEPTIC (low)
+
+### Journal of Computer Assisted Learning (JCAL)
+**Focus:** Computer-assisted and technology-enhanced learning — collaborative learning technologies, game-based learning, VR/AR, AI-assisted learning
+**Bar:** Empirical research on technology-supported learning. Must show learning impact. International scope.
+**Domain referee adjusts:** Collaborative learning technologies. Game-based and gamified learning. Virtual and augmented reality in education. Self-regulated learning with technology. Scaffolding and feedback systems.
+**Methods referee adjusts:** Experimental or quasi-experimental preferred. Pre-post with control. Learning analytics with proper statistical methods. Content analysis for qualitative data. Reliable instruments. Effect sizes reported.
+**Typical concerns:** "Does the technology scaffold or replace learning?" "What's the control condition?" "Novelty effect vs. sustained impact?" "How does this scale?"
+**Referee pool:** CREDIBILITY (high), MEASUREMENT (high), THEORY (medium), SKEPTIC (medium), STRUCTURAL (low), POLICY (low)
+
+---
+
+**Strong Field — Education & Information Technologies**
+
+### Education and Information Technologies
+**Focus:** ICT in education broadly — digital literacy, e-learning, mobile learning, social media in education, AI applications
+**Bar:** Empirical research with clear methodology. Accepts diverse international contexts. Slightly below C&E/BJET bar but growing impact.
+**Domain referee adjusts:** Digital transformation in education. Teacher digital competence. Student digital literacy. COVID-era and post-pandemic education. Developing country contexts welcome. Policy implications for technology integration.
+**Methods referee adjusts:** Survey research with SEM/PLS accepted. Quasi-experimental designs. Systematic reviews and bibliometric analyses. Mixed methods. Reliability and validity of instruments mandatory.
+**Typical concerns:** "What's new beyond existing literature?" "Sample size adequate?" "Instrument validation?" "Implications for practice?"
+**Referee pool:** CREDIBILITY (high), MEASUREMENT (medium), POLICY (medium), THEORY (medium), SKEPTIC (low), STRUCTURAL (low)
+
+### Interactive Learning Environments
+**Focus:** Interactive and adaptive learning environments — simulation, modeling, AI-based learning, human-computer interaction in education
+**Bar:** Focus on the interaction between learner and technology. Design and evaluation of interactive systems. Learning sciences foundation.
+**Domain referee adjusts:** Interaction design for learning. Adaptive and intelligent learning environments. Simulation-based learning. Learner engagement and motivation. Cognitive load in interactive systems.
+**Methods referee adjusts:** User studies with learning outcomes. Log data analysis. Eye-tracking and think-aloud for interaction studies. Pre-post experimental designs. Mixed methods combining system logs with qualitative data.
+**Typical concerns:** "What makes this interactive, not just digital?" "Evidence of meaningful interaction?" "Cognitive load considerations?" "Learner agency?"
+**Referee pool:** STRUCTURAL (high), MEASUREMENT (high), CREDIBILITY (medium), THEORY (medium), SKEPTIC (low), POLICY (low)
+
+---
+
+**Specialty — Iberoamerican Education Journals**
+
+### RIED — Revista Iberoamericana de Educación a Distancia
+**Focus:** Educación a distancia, e-learning, educación virtual, tecnología educativa en Iberoamérica
+**Bar:** Investigación empírica o teórica sobre educación a distancia y mediada por tecnología. Perspectiva iberoamericana. Acepta español, portugués e inglés.
+**Domain referee adjusts:** Contexto iberoamericano fundamental. Educación virtual en universidades latinoamericanas. Brecha digital y acceso. Formación docente para virtualidad. Modelos pedagógicos para educación a distancia.
+**Methods referee adjusts:** Métodos mixtos bien recibidos. Estudios de caso con rigor metodológico. Encuestas con análisis multivariante. Revisiones sistemáticas con protocolo claro. Instrumentos validados en español.
+**Typical concerns:** "¿Contexto latinoamericano considerado?" "¿Validación de instrumentos en español?" "¿Implicaciones para política educativa regional?" "¿Sostenibilidad del modelo?"
+**Referee pool:** CREDIBILITY (high), POLICY (high), MEASUREMENT (medium), THEORY (medium), STRUCTURAL (low), SKEPTIC (low)
+
+### Revista Iberoamericana de Educación Superior (RIES)
+**Focus:** Educación superior en Iberoamérica — políticas, gestión, calidad, innovación curricular, investigación educativa
+**Bar:** Contribución al conocimiento sobre educación superior iberoamericana. Enfoque institucional, político o pedagógico.
+**Domain referee adjusts:** Políticas de educación superior. Aseguramiento de calidad. Innovación curricular. Formación de investigadores. Posgrado y producción científica. Internacionalización.
+**Methods referee adjusts:** Métodos cualitativos y cuantitativos aceptados. Análisis de políticas públicas. Estudios comparados. Análisis institucional. Encuestas a gran escala.
+**Typical concerns:** "¿Relevancia para la región?" "¿Marco de política educativa?" "¿Comparabilidad entre sistemas?" "¿Implicaciones institucionales?"
+**Referee pool:** POLICY (high), THEORY (high), CREDIBILITY (medium), MEASUREMENT (medium), STRUCTURAL (low), SKEPTIC (low)
+
+### Apertura — Revista de Innovación Educativa
+**Focus:** Innovación educativa, tecnología educativa, educación a distancia — contexto mexicano y latinoamericano
+**Bar:** Investigación aplicada sobre innovación en educación. Acceso abierto. Español predominante.
+**Domain referee adjusts:** Innovación en prácticas educativas. Tecnología como mediadora del aprendizaje. Formación docente. Competencias digitales. Contexto mexicano y latinoamericano.
+**Methods referee adjusts:** Estudios empíricos con metodología clara. Estudios de caso, investigación-acción, diseño cuasi-experimental. Instrumentos con evidencia de confiabilidad.
+**Typical concerns:** "¿Cuál es la innovación concreta?" "¿Evidencia de impacto?" "¿Replicabilidad?" "¿Contexto institucional claro?"
+**Referee pool:** CREDIBILITY (high), POLICY (medium), MEASUREMENT (medium), THEORY (medium), STRUCTURAL (low), SKEPTIC (low)
+
+### REDIE — Revista Electrónica de Investigación Educativa
+**Focus:** Investigación educativa amplia — currículo, evaluación, tecnología, formación docente, políticas educativas
+**Bar:** Investigación educativa rigurosa con contribución teórica o metodológica. Contexto mexicano e iberoamericano.
+**Domain referee adjusts:** Amplio espectro educativo. Evaluación educativa. Formación de profesores. Currículo y didáctica. Investigación educativa como campo.
+**Methods referee adjusts:** Pluralismo metodológico. Investigación cualitativa con criterios de trustworthiness. Cuantitativa con análisis apropiados. Mixta con integración clara. Validación de instrumentos.
+**Typical concerns:** "¿Contribución al campo de la investigación educativa?" "¿Rigor metodológico?" "¿Marco teórico sólido?" "¿Implicaciones prácticas?"
+**Referee pool:** THEORY (high), CREDIBILITY (high), MEASUREMENT (medium), POLICY (medium), SKEPTIC (low), STRUCTURAL (low)
+
+---
+
 ## Economics
 
 **Top-5 General Interest**
