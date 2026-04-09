@@ -5,9 +5,9 @@
      Keep this file under ~150 lines — Claude loads it every session.
      See the guide at https://hugosantanna.github.io/clo-author/ for full documentation. -->
 
-**Project:** [YOUR PROJECT NAME]
-**Institution:** [YOUR INSTITUTION]
-**Field:** [YOUR FIELD — Economics by default. Can be adapted to Finance, Accounting, Marketing, etc.]
+**Project:** Ecosistema IA como Tutor Virtual para Competencias Investigativas en Posgrado
+**Institution:** Politécnico Gran Colombiano
+**Field:** Innovación Educativa (campo general: investigación académica)
 **Branch:** main
 
 ---
@@ -102,6 +102,10 @@ See `quality.md` for weighted aggregation formula.
 | `/talk [mode] [format]` | Create, audit, or compile Beamer presentations |
 | `/submit [mode]` | Journal targeting → package → audit → final gate |
 | `/tools [subcommand]` | Utilities: commit, compile, validate-bib, journal, etc. |
+| `/tools debug [context]` | Systematic debugging: root cause before fix (latex/script/data/results) |
+| `/tools verify [target]` | Verification gate: evidence before completion claims |
+| `/tools pre-register [analysis]` | Hypothesis-driven analysis: predict before estimating (TDD for science) |
+| `/tools progress [--teacher]` | Research progress dashboard (Learning Analytics) |
 
 ---
 

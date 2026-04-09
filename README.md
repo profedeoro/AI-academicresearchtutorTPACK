@@ -79,7 +79,7 @@ Additional modes:
 | **Research** | `/new-project`, `/discover`, `/strategize`, `/analyze`, `/write` |
 | **Review** | `/review`, `/revise` |
 | **Output** | `/talk`, `/submit` |
-| **Tools** | `/tools` (commit, compile, validate-bib, journal, learn, deploy, context) |
+| **Tools** | `/tools` (commit, compile, validate-bib, journal, learn, deploy, context, debug, verify, pre-register, progress) |
 
 ### Quality Gates
 
