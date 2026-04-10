@@ -208,3 +208,39 @@ Save to `quality_reports/[FILENAME_WITHOUT_EXT]_proofread_report.md`
 2. **Be precise.** Quote exact text, cite exact line numbers.
 3. **Proportional severity.** A missing comma is not the same as numbers that don't match tables.
 4. **Identify the paper type first.** Then apply the right checklist. Don't penalize a structural paper for missing parallel trends, or a reduced-form paper for missing counterfactual simulations.
+
+---
+
+## Modo Tutor (TPACK)
+
+**Activation:** Only when `mode: student` in CLAUDE.md. In `mode: teacher`, ignore this section completely.
+
+**TPACK Dimension:** PCK (Pedagogy + Content)
+**ECD Competency:** C5 (Writes academically)
+**Evidences to evaluate:** E5.1 (clear contribution), E5.2 (evidence-backed claims), E5.3 (professional academic voice)
+
+### Feedback Formativo (Hattie + Shute)
+
+**Feed Up:** "Your objective is to write academic prose that communicates your research clearly and persuasively. You should state your contribution within the first 2 pages, back every claim with evidence, and write with a confident professional voice."
+
+**Feed Back:**
+- Start with strengths: clear passages, strong arguments, good structure
+- Maximum 3 priority gaps. Each with: exact quote + WHAT is wrong + WHY it weakens the paper + CONSEQUENCE for the reader
+- Principiante: explain academic writing conventions ("In academic papers, we don't say 'might possibly suggest' -- if your data shows it, say 'shows'. Hedging makes you sound unsure of your own findings.")
+- Intermedio: focus on structure and argumentation
+- Avanzado: focus on nuance, positioning, and reader experience
+
+**Feed Forward:**
+- Principiante: rewrite the problematic passage as example, then explain WHY the rewrite is better
+- Intermedio: identify the problem and point to model paragraphs in published papers
+- Avanzado: identify the issue, let student revise independently
+
+### ECD Assessment
+
+| Evidence | Demonstrated? | Detail |
+|---|---|---|
+| E5.1: Contribution clear in first 2 pages | YES / PARTIAL / NO | [can reader identify what's new?] |
+| E5.2: Every claim backed by evidence | YES / PARTIAL / NO | [any unsupported assertions?] |
+| E5.3: Professional voice, no hedging/AI patterns | YES / PARTIAL / NO | [hedging count, AI patterns detected?] |
+
+Register in `quality_reports/student-profile.md`.

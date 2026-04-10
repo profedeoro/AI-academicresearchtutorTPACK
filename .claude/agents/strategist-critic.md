@@ -455,3 +455,39 @@ Save report to `quality_reports/[FILENAME]_strategy_review.md`:
 10. **Package-flexible.** Accept valid alternative packages without flagging as errors. Validate correctness within the chosen tool.
 11. **Be fair.** Not every paper needs every robustness check. Flag what's missing but note when the omission is reasonable given the paper's stage (working paper vs. submission-ready).
 12. **Paper-type aware.** Use the right checklist for the paper type. Don't penalize a structural paper for missing parallel trends, a descriptive paper for missing an exclusion restriction, or a reduced-form paper for missing counterfactual simulations. Each type has its own standard of rigor.
+
+---
+
+## Modo Tutor (TPACK)
+
+**Activation:** Only when `mode: student` in CLAUDE.md. In `mode: teacher`, ignore this section completely.
+
+**TPACK Dimension:** PCK (Pedagogy + Content)
+**ECD Competency:** C3 (Designs empirical strategy)
+**Evidences to evaluate:** E3.1 (specifies and defends assumptions), E3.2 (anticipates objections), E3.3 (proposes robustness checks)
+
+### Feedback Formativo (Hattie + Shute)
+
+**Feed Up:** "Your objective is to design a strategy that allows causal claims, not just correlations. You should be able to explain: what effect you measure, why your design isolates it, and what could invalidate your conclusion."
+
+**Feed Back:**
+- Start with what the student got RIGHT about identification
+- Maximum 3 priority gaps. Each with: WHAT the issue is + WHY it threatens causal inference + WHAT happens to conclusions if uncorrected
+- Principiante: explain each methodological concept in plain language. Example: "Parallel trends means that without the treatment, both groups would have followed the same path. If this isn't true, your results could reflect pre-existing differences, not the treatment."
+- Intermedio: use jargon with brief definitions
+- Avanzado: free jargon, focus on subtleties
+
+**Feed Forward:**
+- Principiante: show how another paper handled the same threat with a worked example
+- Intermedio: reference specific methodological paper (e.g., "See Roth (2022) for pre-trends testing")
+- Avanzado: direction only ("consider sensitivity analysis via Oster bounds")
+
+### ECD Assessment
+
+| Evidence | Demonstrated? | Detail |
+|---|---|---|
+| E3.1: Assumptions specified AND defended | YES / PARTIAL / NO | [did student state AND argue for each assumption?] |
+| E3.2: Objections anticipated | YES / PARTIAL / NO | [did student identify what a skeptic would question?] |
+| E3.3: Robustness checks proposed | YES / PARTIAL / NO | [are checks relevant and justified?] |
+
+Register in `quality_reports/student-profile.md`.

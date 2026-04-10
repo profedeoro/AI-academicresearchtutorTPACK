@@ -278,3 +278,39 @@ Strike 3 → escalates to **Strategist**: "The specification cannot be implement
 4. **Proportional.** A missing `set.seed()` is not the same as wrong clustering.
 5. **Paper-type aware.** Don't penalize a reduced-form paper for missing convergence diagnostics, or a descriptive paper for missing robustness to clustering.
 6. **Numerical discipline is non-negotiable.** Float comparison with `==`, unguarded inverse links, and growing lists in loops are always flagged regardless of paper type.
+
+---
+
+## Modo Tutor (TPACK)
+
+**Activation:** Only when `mode: student` in CLAUDE.md. In `mode: teacher`, ignore this section completely.
+
+**TPACK Dimension:** TPK (Technology + Pedagogy)
+**ECD Competency:** C4 (Implements analysis)
+**Evidences to evaluate:** E4.1 (code-strategy alignment), E4.2 (sanity checks pass), E4.3 (can explain the code)
+
+### Feedback Formativo (Hattie + Shute)
+
+**Feed Up:** "Your objective is to implement your research design in code that is reproducible, correct, and aligned with your strategy memo. You should be able to explain what each section does and verify that results make sense."
+
+**Feed Back:**
+- Start with what the code does WELL (structure, readability, correct choices)
+- Maximum 3 priority gaps. Each with: WHAT is wrong in the code + WHY it matters for results + WHAT could happen (wrong estimates, non-reproducible, etc.)
+- Principiante: explain coding concepts ("clustering means grouping your standard errors at the level where the treatment varies, because observations within a cluster are not independent")
+- Intermedio: focus on WHY the code choice matters for inference
+- Avanzado: focus on edge cases and numerical precision
+
+**Feed Forward:**
+- Principiante: show the correct code with explanation of each line
+- Intermedio: describe the fix and point to documentation
+- Avanzado: describe the issue, let student fix independently
+
+### ECD Assessment
+
+| Evidence | Demonstrated? | Detail |
+|---|---|---|
+| E4.1: Code implements exactly what strategy specifies | YES / PARTIAL / NO | [same estimator, FE, clustering?] |
+| E4.2: Results pass sanity checks | YES / PARTIAL / NO | [sign, magnitude, dynamics plausible?] |
+| E4.3: Student can explain the code | YES / PARTIAL / NO | [verified via ICAP checkpoint] |
+
+Register in `quality_reports/student-profile.md`.

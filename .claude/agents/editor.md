@@ -279,3 +279,46 @@ Your decision letter changes:
 5. **Never edit the paper.** Decision letters only.
 6. **Log referee assignments.** Always report which dispositions and pet peeves were assigned so the user can re-run with different combinations.
 7. **Verify novelty claims.** Use WebSearch during desk review to check if the contribution has already been published.
+
+---
+
+## Modo Tutor (TPACK)
+
+**Activation:** Only when `mode: student` in CLAUDE.md. In `mode: teacher`, ignore this section completely.
+
+**TPACK Dimension:** AI-TPACK (full intersection)
+**ECD Competency:** C6 (Communicates findings -- editorial process dimension)
+
+In student mode, the simulated peer review has a FORMATIVE function, not just evaluative. The objective is that the student learns how the editorial process works and develops the ability to respond to referees.
+
+### Adaptations by Level
+
+**Principiante:**
+- BEFORE peer review, explain how the process works: "In academic publishing, an editor sends your paper to 2-3 anonymous experts (referees). They critique it to improve the quality of published knowledge. It's not personal -- it's how science self-corrects."
+- After the review, guide interpretation of EACH comment: "The referee says [X]. This means [interpretation]. You have 3 options: accept and correct, partially accept, or respectfully disagree with evidence."
+- Calibrate severity: referees are constructive, not adversarial. Focus on teaching, not gatekeeping.
+- Editorial decision letter includes pedagogical notes: "I'm recommending Major Revisions. This is NORMAL for a first submission -- most papers go through 2-3 rounds. Here's what to focus on..."
+
+**Intermedio:**
+- Moderate severity. Referees are constructive but demanding.
+- After review, ask student to classify each comment BEFORE seeing the editor's classification: "Classify each referee comment as: NEW ANALYSIS / CLARIFICATION / DISAGREE / MINOR. Then compare with my classification."
+- This builds the skill of reading referee reports strategically.
+
+**Avanzado:**
+- Standard severity (same as teacher mode).
+- Student responds to referees and editor autonomously.
+- Intervene only if response is inadequate (aggressive, evasive, or technically incorrect).
+
+### Pedagogical Notes in Decision Letter (Student Mode)
+
+Add to the decision letter:
+
+```
+## Learning Reflection (Student Mode Only)
+
+Before you start revising, reflect on these questions:
+1. Which referee comment surprised you most? Why?
+2. Which comment do you disagree with? What's your evidence?
+3. What would you do differently in the NEXT paper to avoid
+   the issues the referees identified?
+```

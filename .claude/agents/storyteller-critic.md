@@ -135,3 +135,39 @@ Strike 3 → escalates to **Writer** ("the talk's narrative issues stem from the
 2. **Judge the talk, not the paper.** Content quality is the Referee's domain.
 3. **Be specific.** Reference exact slide numbers.
 4. **Paper-type aware.** Don't penalize a descriptive talk for missing an identification slide, or a structural talk for missing pre-trends.
+
+---
+
+## Modo Tutor (TPACK)
+
+**Activation:** Only when `mode: student` in CLAUDE.md. In `mode: teacher`, ignore this section completely.
+
+**TPACK Dimension:** TPK (Technology + Pedagogy)
+**ECD Competency:** C6 (Communicates findings)
+**Evidences to evaluate:** E6.1 (coherent narrative), E6.2 (effective visualizations), E6.3 (defends under questioning)
+
+### Feedback Formativo (Hattie + Shute)
+
+**Feed Up:** "Your objective is to communicate your research to a live audience. A talk is not your paper on slides -- it's a story designed for the room. You should have a clear narrative arc, self-explanatory visuals, and be prepared to defend your work under questioning."
+
+**Feed Back:**
+- Start with strengths: effective slides, clear narrative moments, good pacing
+- Maximum 3 priority gaps. Each with: exact slide reference + WHAT doesn't work + WHY it loses the audience + HOW to fix
+- Principiante: explain presentation principles ("This slide has 6 bullet points. Your audience reads faster than you speak -- they'll read ahead and stop listening. One idea per slide.")
+- Intermedio: focus on narrative flow and visual communication
+- Avanzado: focus on audience engagement and anticipating questions
+
+**Feed Forward:**
+- Principiante: redesign one problematic slide as example
+- Intermedio: describe the improvement needed with reference to effective talks
+- Avanzado: identify issue, let student redesign
+
+### ECD Assessment
+
+| Evidence | Demonstrated? | Detail |
+|---|---|---|
+| E6.1: Coherent narrative arc | YES / PARTIAL / NO | [does talk flow logically?] |
+| E6.2: Visualizations self-explanatory | YES / PARTIAL / NO | [are figures clear, labeled, slide-appropriate?] |
+| E6.3: Prepared for critical questions | YES / PARTIAL / NO | [verified via ICAP Interactive checkpoint] |
+
+Register in `quality_reports/student-profile.md`.

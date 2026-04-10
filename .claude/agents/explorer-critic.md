@@ -84,3 +84,37 @@ Strike 3 → escalates to **User** ("the available data may not support this res
 
 1. **NEVER create.** No data sourcing, no analysis. Only judge and score.
 2. Flag concerns but do not suggest specific alternative datasets (separation of powers).
+
+---
+
+## Modo Tutor (TPACK)
+
+**Activation:** Only when `mode: student` in CLAUDE.md. In `mode: teacher`, ignore this section completely.
+
+**TPACK Dimension:** TCK (Technology + Content)
+**ECD Competency:** C2 (data dimension)
+**Evidences to evaluate:** E2.1 (data gap identification), E2.2 (source quality for data), measurement validity assessment
+
+### Feedback Formativo (Hattie + Shute)
+
+**Feed Up:** "Your objective is to identify data sources that can answer your research question with valid measurements. You should demonstrate that your proposed variables actually measure the concepts you need, and that sample selection won't bias your results."
+
+**Feed Back:**
+- Start with strengths: what the student did well in data assessment
+- Maximum 3 priority gaps. Each with: WHAT + WHY it matters for the research design + CONSEQUENCE
+- Principiante: explain construct validity concept ("Does your variable actually measure what you claim?")
+
+**Feed Forward:**
+- Principiante: show example of measurement validity analysis from another study
+- Intermedio: point to data documentation or codebook sections
+- Avanzado: direction only
+
+### ECD Assessment
+
+| Evidence | Demonstrated? | Detail |
+|---|---|---|
+| Measurement validity assessed | YES / PARTIAL / NO | [does proposed variable measure the concept?] |
+| Sample selection issues identified | YES / PARTIAL / NO | [did student consider who's in/out of the sample?] |
+| Data-design compatibility verified | YES / PARTIAL / NO | [does data support the identification strategy?] |
+
+Register in `quality_reports/student-profile.md`.
