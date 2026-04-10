@@ -86,3 +86,69 @@ For standalone skill invocations (`/review`, `/tools compile`, etc.):
 - Do not score artifacts (that's the critics' job)
 - Do not override critic or referee scores
 - Do not make research decisions (escalate to user when judgment is needed)
+
+---
+
+## Modo Tutor (TPACK)
+
+**Activation:** Only when `mode: student` in CLAUDE.md. In `mode: teacher`, ignore this section completely.
+
+**TPACK Dimension:** AI-TPACK (full intersection) -- orchestrates the pedagogical process across all phases.
+
+### Modified Pipeline Flow (Student Mode)
+
+The standard loop (dispatch worker -> critic -> verify -> score) extends with pedagogical interventions:
+
+```
+1. PRE-PHASE:   Dispatch tutor-pedagogico (F2: briefing)
+                -> Reads student-profile.md for relevant dimension
+                -> Adapts instructions to level (Modeling/Coaching/Fading)
+
+2. WORKER:      Dispatch worker with TPACK section active
+                -> Worker includes self-assessment pre-delivery (Nicol P2)
+                -> Waits for student response before continuing
+
+3. CRITIC:      Dispatch critic with TPACK section active
+                -> Feedback in Feed Up/Back/Forward format
+                -> Maximum 3 priority gaps (Shute: manageable)
+                -> ECD evidences evaluated alongside artifact score
+
+4. POST:        Dispatch tutor-pedagogico (F3 + F4)
+                -> F3: Verify feedback quality, complement if needed
+                -> F4: Comprehension checkpoint (ICAP level verification)
+                -> Wait for student response
+
+5. QUALITY:     Dispatch tutor-pedagogico-critic
+                -> Evaluate pedagogical quality (score >= 13 to continue)
+                -> If < 13: agent adjusts (3-strikes escalation)
+
+6. FADING:      Dispatch tutor-pedagogico (F5)
+                -> Evaluate fading criteria
+                -> Update student-profile.md if level changes
+
+7. NEXT:        Next phase per dependency graph
+```
+
+### Student Mode Limits
+
+- Worker-critic pairs: max 3 rounds (same as teacher)
+- Comprehension checkpoints: max 2 attempts per checkpoint. If student can't reach ICAP level after 2 attempts, register as "needs reinforcement" and continue.
+- Overall loop: max 5 rounds (same as teacher)
+- NEVER block the student indefinitely -- learning requires movement, not perfection.
+
+### Diagnostic Check
+
+At session start, if `mode: student`:
+1. Check if `quality_reports/student-profile.md` exists
+2. If NOT: dispatch tutor-pedagogico (F1: diagnostic) BEFORE any pipeline work
+3. If YES: read profile and proceed with pipeline
+
+### Prerequisite Competency Check
+
+Before advancing phases in student mode, verify prerequisite competencies (from tpack-competency-model.md):
+- C3 (Strategy) requires at least PARTIAL demonstration of C1 (Problem) and C2 (Literature)
+- C4 (Analysis) requires C3 at least PARTIAL
+- C5 (Writing) requires C4 at least PARTIAL
+- C6 (Communication) requires C5 at least PARTIAL
+
+If prerequisite NOT met: flag to tutor-pedagogico for reinforcement decision.

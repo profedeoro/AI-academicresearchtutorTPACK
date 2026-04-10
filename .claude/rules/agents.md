@@ -102,6 +102,7 @@ Round 3: Critic reviews → Worker fixes
 | librarian + librarian-critic | User | Scope disagreement — user decides breadth vs depth |
 | explorer + explorer-critic | User | Data feasibility deadlock — user decides resource trade-offs |
 | storyteller + storyteller-critic | User | Talk scope/format disagreement |
+| tutor-pedagogico + tutor-pedagogico-critic | User | Pedagogical quality disagreement |
 
 ### Rules
 
@@ -109,3 +110,45 @@ Round 3: Critic reviews → Worker fixes
 - **Escalation is logged** in the research journal with strike count
 - **User escalation requires a clear question** — not "they disagree," but "strategist-critic requires X, which contradicts Y. Which takes priority?"
 - **Post-escalation:** The worker starts fresh from the escalation target's decision, not from its previous attempt
+
+---
+
+## 4. Pedagogical Escalation (Student Mode Only)
+
+**Active only when `mode: student` in CLAUDE.md.**
+
+### Pedagogical Quality Enforcement
+
+The tutor-pedagogico-critic evaluates the pedagogical quality of every agent-student interaction on a 20-point scale (5 dimensions). If an agent consistently delivers evaluative instead of formative feedback, the system escalates.
+
+### Three-Strikes Protocol (Pedagogical)
+
+```
+Round 1: Pedagogical score < 13 → tutor-pedagogico-critic reports → agent adjusts
+Round 2: Pedagogical score < 13 → tutor-pedagogico-critic reports → agent adjusts
+Round 3: Pedagogical score < 13 → ESCALATE
+         ↓
+    tutor-pedagogico takes over the interaction directly
+    → Restructures feedback with all 5 pedagogical layers
+    → Registers pattern in quality_reports/pedagogical-review.md
+    → Alerts teacher via /tools progress --teacher
+```
+
+### What Gets Evaluated
+
+| Dimension | Points | Framework |
+|-----------|--------|-----------|
+| Feedback quality (Feed Up/Back/Forward) | /5 | Hattie & Timperley (2007) + Shute (2008) |
+| Self-regulation fostering | /4 | Nicol & Macfarlane-Dick (2006) |
+| Scaffolding appropriateness | /4 | Collins, Brown & Newman (1989) |
+| Evidence-based assessment | /3 | Mislevy, Steinberg & Almond (2003) |
+| Interaction level (ICAP) | /4 | Chi & Wylie (2014) |
+
+### Classification
+
+| Score | Classification | Action |
+|-------|---------------|--------|
+| 17-20 | EXCELLENT | Log and continue |
+| 13-16 | GOOD | Note improvements needed |
+| 9-12 | INSUFFICIENT | Recommend specific improvements |
+| 0-8 | PEDAGOGICAL FAILURE | Escalate immediately |

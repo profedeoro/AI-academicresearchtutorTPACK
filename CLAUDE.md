@@ -8,6 +8,8 @@
 **Project:** Ecosistema IA como Tutor Virtual para Competencias Investigativas en Posgrado
 **Institution:** Politécnico Gran Colombiano
 **Field:** Innovación Educativa (campo general: investigación académica)
+**Mode:** student
+**Student Level:** auto
 **Branch:** main
 
 ---
