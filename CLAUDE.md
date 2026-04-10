@@ -107,7 +107,8 @@ See `quality.md` for weighted aggregation formula.
 | `/tools debug [context]` | Systematic debugging: root cause before fix (latex/script/data/results) |
 | `/tools verify [target]` | Verification gate: evidence before completion claims |
 | `/tools pre-register [analysis]` | Hypothesis-driven analysis: predict before estimating (TDD for science) |
-| `/tools progress [--teacher]` | Research progress dashboard (Learning Analytics) |
+| `/tools progress [--teacher] [--visual]` | Research progress dashboard (Learning Analytics + visual PDF) |
+| `/tools progress --teacher --investigate [student]` | Deep diagnostic of learning difficulties (error-detective) |
 
 ---
 

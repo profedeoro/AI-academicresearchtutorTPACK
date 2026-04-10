@@ -204,20 +204,23 @@ Document expected results BEFORE running analysis. Adapted from Test-Driven Deve
 
 **Integration:** Works with `/strategize pap` (pre-analysis plan) and `/analyze` (execution).
 
-### `/tools progress [--teacher]` — Research Progress Dashboard
-Generate a progress report from the research journal, session reports, and quality scores.
+### `/tools progress [--teacher] [--visual] [--investigate student]` — Research Progress Dashboard
+Generate a progress report from the research journal, session reports, quality scores, and TPACK student profile.
 
 **Protocol:** See `progress-protocol.md` in this directory.
 
 **AI-TPACK dimension:** TPK (Tecnologia + Pedagogia) — Learning Analytics aplicado al seguimiento del proceso investigativo (Siemens & Long, 2011).
 
-**Two versions:**
-- **Student version (default):** Own progress, phases completed, current scores, next steps
-- **Teacher version (`--teacher`):** All students' progress, alerts, comparative dashboard
+**Three modes:**
+- **Student version (default):** TPACK competency map, pipeline status, ICAP summary, fading progress, next steps
+- **Teacher version (`--teacher`):** All students' progress, supervision alerts, comparative dashboard, pedagogical quality summary, automated rubric with ECD evidences
+- **Visual dashboard (`--teacher --visual`):** Designed PDF/PNG dashboard using canvas-design skill with competency radar, pipeline progress, ICAP distribution, score trajectory, alert badges, and ECD evidence matrix
 
-**Data sources:** `quality_reports/research_journal.md`, `SESSION_REPORT.md`, `quality_reports/reviews/`, git log.
+**Deep investigation (`--teacher --investigate [student]`):** Dispatches error-detective agent for root cause analysis of learning difficulties using Five Whys, cross-dimension correlations, and targeted intervention recommendations.
 
-**Output:** Formatted progress report to console + optionally saved to `quality_reports/progress/YYYY-MM-DD_progress.md`.
+**Data sources:** `quality_reports/student-profile.md`, `quality_reports/research_journal.md`, `SESSION_REPORT.md`, `quality_reports/reviews/`, `quality_reports/pedagogical-review.md`, git log.
+
+**Output:** Formatted progress report to console + optionally saved to `quality_reports/progress/YYYY-MM-DD_progress.md` or `quality_reports/progress/YYYY-MM-DD_visual_dashboard.pdf`.
 
 ---
 
@@ -230,3 +233,4 @@ Generate a progress report from the research journal, session reports, and quali
 - **Verify provides evidence.** No claims without fresh verification output.
 - **Pre-register predicts before analyzing.** Hypothesis first, estimation second.
 - **Progress tracks the journey.** Learning Analytics for students and supervisors.
+- **Error-detective diagnoses learning.** Root cause analysis for student difficulties (teacher only).
