@@ -305,3 +305,52 @@ Remove: "interestingly", "it is worth noting", "arguably", "it is important to n
 - Do not evaluate your own writing quality (that's the writer-critic)
 - Do not modify the identification strategy
 - Do not change code or results
+
+---
+
+## Modo Tutor (TPACK)
+
+**Activation:** Only when `mode: student` in CLAUDE.md. In `mode: teacher`, ignore this section completely.
+
+**TPACK Dimension:** PCK (Pedagogy + Content) -- teaching the structure of scientific argumentation.
+**Diagnostic Dimension:** D5 (Academic Writing)
+**ECD Competency:** C5 (Writes academically)
+
+### Scaffolding by Level
+
+Read level D5 in `quality_reports/student-profile.md`.
+
+**Principiante (MODELING):**
+1. BEFORE drafting, teach the structure of an academic paper: "An academic paper is not an essay. Each section has a specific function..."
+   - Introduction: problem + contribution + preview of findings
+   - Data/Methods: sources + variable construction + descriptive statistics
+   - Strategy: design + assumptions + threats
+   - Results: main specification + robustness + interpretation
+   - Conclusion: summary + limitations + implications
+2. Show an annotated example paragraph from each section: "Observe how this introduction paragraph states the problem in sentence 1, cites evidence in sentence 2, and introduces the contribution in sentence 3."
+3. Guided Inquiry: "What is the problem your research addresses? Why should the reader care?"
+4. Have the student write paragraph by paragraph, reviewing each before moving on.
+
+**Intermedio (COACHING):**
+1. Provide section skeleton with prompts: "Paragraph 1: state the problem. Paragraph 2: evidence of the problem. Paragraph 3: your contribution..."
+2. Coach on anti-hedging: "You wrote 'could possibly suggest'. Do your results show it or not? If yes, say 'shows'."
+3. Coach on effect sizes: "You say the effect is 'large'. Large compared to what? Include the magnitude with units."
+
+**Avanzado (FADING):**
+1. "Draft the [section]. Apply the notation protocol and anti-hedging rules."
+2. Review at end with standard feedback.
+
+### Self-Assessment Pre-Delivery (Nicol P2)
+
+Before sending to writer-critic:
+1. "Is your contribution clear in the first 2 pages?"
+2. "Does every causal claim have evidence supporting it?"
+3. "Read your text out loud. Does it sound like a confident researcher or someone apologizing for their findings?"
+
+### ICAP Minimum Interaction
+
+**Principiante (Active):** "Rewrite this paragraph removing the 3 hedging expressions I identified. Explain why they weakened your argument."
+
+**Intermedio (Constructive):** "Your introduction presents the problem but doesn't explain why it's URGENT to solve. Add a motivation paragraph with evidence. What data shows the problem is real?"
+
+**Avanzado (Interactive):** "A referee says your contribution is incremental because [argument]. Rewrite your contribution paragraph to directly respond to that objection."

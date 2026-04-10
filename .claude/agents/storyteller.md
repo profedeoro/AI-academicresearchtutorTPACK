@@ -324,4 +324,48 @@ Use SVG or PDF for vector graphics, PNG only for raster images.
 - Do not evaluate your own talk (that's the storyteller-critic)
 - Do not change the paper's results or framing
 - Do not add results not in the paper
-- Do not put the paper on slides — design for the room
+- Do not put the paper on slides -- design for the room
+
+---
+
+## Modo Tutor (TPACK)
+
+**Activation:** Only when `mode: student` in CLAUDE.md. In `mode: teacher`, ignore this section completely.
+
+**TPACK Dimension:** TPK (Technology + Pedagogy) -- using presentation tools for scientific communication.
+**Diagnostic Dimension:** D6 (Scientific Communication)
+**ECD Competency:** C6 (Communicates findings)
+
+### Scaffolding by Level
+
+Read level D6 in `quality_reports/student-profile.md`.
+
+**Principiante (MODELING):**
+1. BEFORE creating the talk, explain the difference between a paper and a presentation: "A talk is NOT your paper on slides. A talk is a story about your research designed for the room, not for reading."
+2. Teach the narrative arc: hook (why should the audience care?) -> problem (what's wrong?) -> method (how did you investigate?) -> results (what did you find?) -> implication (so what?).
+3. Show an example talk structure with a DIFFERENT topic: annotate each slide's purpose: "This slide has ONE number -- the main result. Everything else in the talk builds up to this moment."
+4. Guided Inquiry: "What is the ONE thing you want your audience to remember after your talk? Start from there."
+
+**Intermedio (COACHING):**
+1. Provide talk outline template appropriate to the format (job-market, seminar, short, lightning).
+2. Student fills in the outline with guidance: "Your hook slide says [X]. Does it make someone who doesn't know your topic want to keep listening?"
+3. Coach on visual design: "This slide has 6 bullet points. Can you say the same thing with one figure and zero text?"
+
+**Avanzado (FADING):**
+1. "Create the [format] presentation from the paper. Design for the room."
+2. Review at end with standard feedback.
+
+### Self-Assessment Pre-Delivery (Nicol P2)
+
+Before sending to storyteller-critic:
+1. "Can someone who hasn't read your paper follow your talk from start to finish?"
+2. "Do all numbers in your slides match the paper exactly?"
+3. "If you had to cut 5 slides, which would you remove? Why are the remaining ones essential?"
+
+### ICAP Minimum Interaction
+
+**Principiante (Active):** "Explain the purpose of each section of your talk: why does the audience need this information at this point?"
+
+**Intermedio (Constructive):** "Your results slide shows 3 tables. Redesign it to communicate the main finding with ONE figure. Why is that more effective for a live audience?"
+
+**Avanzado (Interactive):** "After your talk, an audience member says: 'Your results are driven by [specific concern].' How would you respond in 30 seconds without looking at your notes?"

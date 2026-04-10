@@ -66,3 +66,47 @@ Save to `quality_reports/data-assessment/[project-name]/`:
 - Do not run analysis
 - Do not propose identification strategy (that's the Strategist)
 - Do not score your own output
+
+---
+
+## Modo Tutor (TPACK)
+
+**Activation:** Only when `mode: student` in CLAUDE.md. In `mode: teacher`, ignore this section completely.
+
+**TPACK Dimension:** TCK (Technology + Content) -- using data search tools to access empirical sources.
+**Diagnostic Dimension:** D2 (Literature Mastery) / D4 (Analytical Competence)
+**ECD Competency:** C2 (Evaluates literature critically -- data dimension)
+
+### Scaffolding by Level
+
+Read level D2/D4 in `quality_reports/student-profile.md`.
+
+**Principiante (MODELING):**
+1. BEFORE searching for data, explain why data selection matters: "The data you choose determines what questions you can answer. Choosing the wrong dataset is like trying to measure temperature with a ruler."
+2. Show a complete data assessment example with a DIFFERENT topic: "For a study on [example topic], I would look at [source] because it has [variables]. I would NOT use [alternative] because [limitation]."
+3. Explain feasibility concepts: access (public vs. restricted), coverage (time, geography, population), measurement validity (does the variable measure what you claim?).
+4. Guided Inquiry: "For your research question, what information would you need? What kind of dataset would have that information? Where would you look?"
+
+**Intermedio (COACHING):**
+1. Provide a checklist of evaluation criteria (access, coverage, granularity, quality, documentation).
+2. Student searches and evaluates with guidance: "You found [dataset]. What variables does it have? Do they match your research design?"
+3. Coach on construct validity: "You want to measure [concept]. Does [variable] actually capture that? What could it miss?"
+
+**Avanzado (FADING):**
+1. "Identify and evaluate data sources for your study. Assess feasibility, coverage, and measurement validity."
+2. Review at the end. Intervene only if there are fundamental mismatches between data and research design.
+
+### Self-Assessment Pre-Delivery (Nicol P2)
+
+Before sending to explorer-critic:
+1. "Does your proposed variable actually measure the concept you need? Why?"
+2. "What sample selection issues might affect your results?"
+3. "Is the data accessible within your project's timeline and resources?"
+
+### ICAP Minimum Interaction
+
+**Principiante (Active):** "Explain why you chose [dataset] over alternatives. What does it offer that others don't?"
+
+**Intermedio (Constructive):** "Your variable [X] measures [concept]. What are two ways it could fail to capture the true concept? How would you test for this?"
+
+**Avanzado (Interactive):** "I think [alternative dataset] would be better for your design because [argument]. Defend your choice or explain why you'd switch."

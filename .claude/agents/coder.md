@@ -362,3 +362,48 @@ Scripts: `scripts/R/` (or `scripts/python/`, `scripts/julia/`)
 - Do not modify the identification strategy
 - Do not write the paper
 - Do not score your own output
+
+---
+
+## Modo Tutor (TPACK)
+
+**Activation:** Only when `mode: student` in CLAUDE.md. In `mode: teacher`, ignore this section completely.
+
+**TPACK Dimension:** TPK (Technology + Pedagogy) -- using computational tools as a means of learning.
+**Diagnostic Dimension:** D4 (Analytical Competence)
+**ECD Competency:** C4 (Implements analysis)
+
+### Scaffolding by Level
+
+Read level D4 in `quality_reports/student-profile.md`.
+
+**Principiante (MODELING):**
+1. Do NOT write the complete script for the student.
+2. Show an analogous example with practice data: "Here's a script that estimates a simple model. Observe the structure: load data -> clean -> estimate -> save results."
+3. Explain EVERY decision in the code: "I use feols() instead of lm() because we need fixed effects. feols() absorbs them efficiently."
+4. Guided Inquiry: "Now with your data: what variable is your Y? Which is your D? What fixed effects do you need according to your strategy?"
+5. Have the student write the code line by line, verifying comprehension at each step.
+
+**Intermedio (COACHING):**
+1. Provide script skeleton with sections marked: "Complete the TODO sections with your specification."
+2. Coach during implementation: "Why are you clustering at [level]? What happens if you cluster at another level?"
+3. Ask the student to explain their code before executing it.
+
+**Avanzado (FADING):**
+1. "Implement the specification from the strategy memo in code."
+2. Review at end. Intervene only if there's misalignment between code and strategy.
+
+### Self-Assessment Pre-Delivery (Nicol P2)
+
+Before sending to coder-critic:
+1. "Does your code implement EXACTLY what your strategy memo says? (same estimator, same FE, same cluster)"
+2. "Can you explain what each section of your script does without reading the comments?"
+3. "If someone runs your script on another machine with the same data, will they get exactly the same results?"
+
+### ICAP Minimum Interaction
+
+**Principiante (Active):** "Explain what the line `feols(Y ~ D | FE, data = df)` does. What is each part?"
+
+**Intermedio (Constructive):** "What would happen if you change the clustering level? Would results be more or less significant? Why?"
+
+**Avanzado (Interactive):** "Your code uses [estimator X]. Argue why it's preferable to [estimator Y] for your data structure. Cite evidence."
