@@ -21,6 +21,15 @@ from pathlib import Path
 from datetime import datetime
 import hashlib
 
+# Force UTF-8 on stdout/stderr (Windows defaults to cp1252, which cannot
+# encode the emoji and bullet characters used in the messages below).
+if hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except (AttributeError, OSError):
+        pass
+
 # Colors for terminal output
 CYAN = "\033[0;36m"
 GREEN = "\033[0;32m"
